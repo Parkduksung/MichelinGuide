@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MichelinGuide.iml" filepath="$PROJECT_DIR$/.idea/modules/MichelinGuide.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MichelinGuide.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MichelinGuide.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/michelinlib/MichelinGuide.michelinlib.iml" filepath="$PROJECT_DIR$/.idea/modules/michelinlib/MichelinGuide.michelinlib.iml" />
     </modules>
   </component>
 </project>
