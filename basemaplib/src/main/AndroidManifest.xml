@@ -2,4 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.basemaplib">
 
+    <application>
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="2589743509f4dc15a9daac858e75347b" />
+    </application>
 </manifest>

@@ -9,8 +9,8 @@ MERGED from [androidx.databinding:databinding-ktx:7.0.3] /Users/dspark/.gradle/c
 MERGED from [androidx.databinding:databinding-runtime:7.0.3] /Users/dspark/.gradle/caches/transforms-3/1142b3d4d0a864be61578133e66b9917/transformed/databinding-runtime-7.0.3/AndroidManifest.xml:17:1-22:12
 MERGED from [:michelinlib] /Users/dspark/AndroidStudioProjects/MichelinGuide/michelinlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:naverMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/naverMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:kakaoMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/kakaoMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:basemaplib] /Users/dspark/AndroidStudioProjects/MichelinGuide/basemaplib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:kakaoMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/kakaoMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:basemaplib] /Users/dspark/AndroidStudioProjects/MichelinGuide/basemaplib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/dspark/.gradle/caches/transforms-3/b810fbd67bac4a05cbf88abe5cff703f/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/dspark/.gradle/caches/transforms-3/0a2abf7e181c5770d82904112c96f8dd/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/dspark/.gradle/caches/transforms-3/cc253e1064e548dd1869e727f3d493ce/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
@@ -86,6 +86,8 @@ ADDED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/Androi
 		ADDED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/AndroidManifest.xml:7:22-78
 application
 ADDED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/AndroidManifest.xml:9:5-26:19
+MERGED from [:basemaplib] /Users/dspark/AndroidStudioProjects/MichelinGuide/basemaplib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:19
+MERGED from [:basemaplib] /Users/dspark/AndroidStudioProjects/MichelinGuide/basemaplib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/dspark/.gradle/caches/transforms-3/0a2abf7e181c5770d82904112c96f8dd/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/dspark/.gradle/caches/transforms-3/0a2abf7e181c5770d82904112c96f8dd/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/dspark/.gradle/caches/transforms-3/cc253e1064e548dd1869e727f3d493ce/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
@@ -250,6 +252,12 @@ INJECTED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/And
 		INJECTED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/AndroidManifest.xml
 		ADDED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/AndroidManifest.xml
+meta-data#com.kakao.sdk.AppKey
+ADDED from [:kakaoMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/kakaoMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:60
+	android:value
+		ADDED from [:kakaoMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/kakaoMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-57
+	android:name
+		ADDED from [:kakaoMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/kakaoMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-44
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/dspark/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20

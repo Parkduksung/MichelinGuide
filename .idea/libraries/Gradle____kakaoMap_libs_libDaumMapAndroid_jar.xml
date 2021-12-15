@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./kakaoMap/libs/libDaumMapAndroid.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/kakaoMap/libs/libDaumMapAndroid.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
