@@ -125,5 +125,7 @@
     <orderEntry type="library" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout:2.1.2@aar" level="project" />
+    <orderEntry type="module" module-name="MichelinGuide.michelinlib" />
+    <orderEntry type="module" module-name="MichelinGuide.basemaplib" />
   </component>
 </module>

@@ -11,7 +11,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/basemaplib" />
+            <option value="$PROJECT_DIR$/kakaoMap" />
             <option value="$PROJECT_DIR$/michelinlib" />
+            <option value="$PROJECT_DIR$/naverMap" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

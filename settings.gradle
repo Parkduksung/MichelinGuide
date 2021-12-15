@@ -9,3 +9,6 @@ dependencyResolutionManagement {
 rootProject.name = "MichelinGuide"
 include ':app'
 include ':michelinlib'
+include ':basemaplib'
+include ':naverMap'
+include ':kakaoMap'

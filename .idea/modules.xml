@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MichelinGuide.iml" filepath="$PROJECT_DIR$/.idea/modules/MichelinGuide.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MichelinGuide.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MichelinGuide.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basemaplib/MichelinGuide.basemaplib.iml" filepath="$PROJECT_DIR$/.idea/modules/basemaplib/MichelinGuide.basemaplib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kakaoMap/MichelinGuide.kakaoMap.iml" filepath="$PROJECT_DIR$/.idea/modules/kakaoMap/MichelinGuide.kakaoMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/michelinlib/MichelinGuide.michelinlib.iml" filepath="$PROJECT_DIR$/.idea/modules/michelinlib/MichelinGuide.michelinlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/naverMap/MichelinGuide.naverMap.iml" filepath="$PROJECT_DIR$/.idea/modules/naverMap/MichelinGuide.naverMap.iml" />
     </modules>
   </component>
 </project>
