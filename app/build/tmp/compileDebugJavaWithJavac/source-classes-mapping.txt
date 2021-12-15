@@ -1,6 +1,6 @@
-com/example/michelinguide/databinding/ActivityMainBinding.java
- com.example.michelinguide.databinding.ActivityMainBinding
-com/example/michelinguide/BuildConfig.java
- com.example.michelinguide.BuildConfig
 com/example/michelinguide/DataBindingTriggerClass.java
  com.example.michelinguide.DataBindingTriggerClass
+com/example/michelinguide/BuildConfig.java
+ com.example.michelinguide.BuildConfig
+com/example/michelinguide/databinding/ActivityMainBinding.java
+ com.example.michelinguide.databinding.ActivityMainBinding
