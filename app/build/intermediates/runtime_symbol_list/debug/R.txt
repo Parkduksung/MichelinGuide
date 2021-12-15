@@ -2061,6 +2061,7 @@ int id item4 0x7f0800e1
 int id item_touch_helper_previous_elevation 0x7f0800e2
 int id jumpToEnd 0x7f0800e3
 int id jumpToStart 0x7f0800e4
+int id kakaomap 0x7f0801df
 int id labeled 0x7f0800e5
 int id layout 0x7f0800e6
 int id left 0x7f0800e7
