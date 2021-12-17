@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
+import com.example.basemaplib.module.MapEventListener
 import com.example.basemaplib.module.fragment.MapProvider
 import com.example.michelinguide.databinding.ActivityMainBinding
 import com.example.michelinlib.factory.MapProviderFactory
@@ -17,23 +18,29 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var mapProvider: MapProvider
 
+    private lateinit var mapEventListener: MapEventListener
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding.lifecycleOwner = this
         binding.activity = this
         setContentView(binding.root)
-
     }
 
     fun createMap(type: MapType) {
         mapProvider = MapProviderFactory.create(type)
+        mapEventListener = mapProvider
         checkPermission { isGranted ->
             if (isGranted) {
                 supportFragmentManager.beginTransaction()
                     .replace(binding.containerMap.id, mapProvider.getMapFragment()).commit()
             }
         }
+    }
+
+    fun currentLocation() {
+        mapEventListener.getCurrentLocation()
     }
 
     private fun checkPermission(callback: (Boolean) -> Unit) {
