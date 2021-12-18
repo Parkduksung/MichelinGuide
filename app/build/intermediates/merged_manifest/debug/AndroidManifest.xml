@@ -16,6 +16,16 @@
         android:name="com.kakao.sdk.AppKey"
         android:value="2589743509f4dc15a9daac858e75347b" />
 
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -39,8 +49,27 @@
         </activity>
 
         <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="crkx9i5bze" />
+        <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="2589743509f4dc15a9daac858e75347b" />
+
+        <activity
+            android:name="com.naver.maps.map.app.LegendActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/navermap_legend"
+            android:theme="@style/navermap_app" />
+        <activity
+            android:name="com.naver.maps.map.app.LegalNoticeActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/navermap_legal_notice"
+            android:theme="@style/navermap_app" />
+        <activity
+            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/navermap_open_source_license"
+            android:theme="@style/navermap_app" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

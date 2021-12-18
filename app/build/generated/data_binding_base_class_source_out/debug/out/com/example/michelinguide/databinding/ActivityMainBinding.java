@@ -18,6 +18,9 @@ import java.lang.Object;
 
 public abstract class ActivityMainBinding extends ViewDataBinding {
   @NonNull
+  public final Button btnCurrent;
+
+  @NonNull
   public final Button btnKakao;
 
   @NonNull
@@ -30,8 +33,9 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   protected MainActivity mActivity;
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button btnKakao, Button btnNaver, FragmentContainerView containerMap) {
+      Button btnCurrent, Button btnKakao, Button btnNaver, FragmentContainerView containerMap) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.btnCurrent = btnCurrent;
     this.btnKakao = btnKakao;
     this.btnNaver = btnNaver;
     this.containerMap = containerMap;
