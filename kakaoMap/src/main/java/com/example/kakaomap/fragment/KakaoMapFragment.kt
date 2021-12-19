@@ -5,16 +5,15 @@ import android.view.View
 import android.widget.Toast
 import com.example.basemaplib.module.base.BaseFragment
 import com.example.kakaomap.R
+import com.example.kakaomap.databinding.FragmentKakaomapBinding
 import net.daum.mf.map.api.MapPoint
 import net.daum.mf.map.api.MapView
 
-class KakaoMapFragment : BaseFragment(R.layout.fragment_kakaomap) {
-
-    private val mapView by lazy { requireActivity().findViewById<MapView>(R.id.kakaomap) }
+class KakaoMapFragment : BaseFragment<FragmentKakaomapBinding>(R.layout.fragment_kakaomap) {
 
     override fun getCurrentLocation() {
         val getMapCenterPoint =
-            mapView.mapCenterPoint.mapPointGeoCoord
+            binding.kakaomap.mapCenterPoint.mapPointGeoCoord
         Toast.makeText(
             requireContext(),
             "current lat : ${getMapCenterPoint.latitude}, log : ${getMapCenterPoint.longitude}",
@@ -64,7 +63,7 @@ class KakaoMapFragment : BaseFragment(R.layout.fragment_kakaomap) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        mapView.setMapViewEventListener(mapViewEventListener)
+        binding.kakaomap.setMapViewEventListener(mapViewEventListener)
 
     }
 }

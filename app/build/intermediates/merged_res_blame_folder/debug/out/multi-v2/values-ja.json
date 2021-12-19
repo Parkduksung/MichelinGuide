@@ -4,23 +4,6 @@
             "outputFile": "/Users/dspark/AndroidStudioProjects/MichelinGuide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
-                    "source": "/Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/res/values-ja/values-ja.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,105,163,227,274,318,388,438,486",
-                        "endColumns": "49,57,63,46,43,69,49,47,48",
-                        "endOffsets": "100,158,222,269,313,383,433,481,530"
-                    },
-                    "to": {
-                        "startLines": "86,87,88,89,90,91,92,93,94",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "6619,6669,6727,6791,6838,6882,6952,7002,7050",
-                        "endColumns": "49,57,63,46,43,69,49,47,48",
-                        "endOffsets": "6664,6722,6786,6833,6877,6947,6997,7045,7094"
-                    }
-                },
-                {
                     "source": "/Users/dspark/.gradle/caches/transforms-3/f151290c6ded99e73cc30cce4233ae32/transformed/core-1.7.0/res/values-ja/values-ja.xml",
                     "from": {
                         "startLines": "2",
@@ -71,6 +54,23 @@
                         "startOffsets": "258,355,448,553,635,733,841,919,994,1085,1178,1273,1367,1467,1560,1655,1749,1840,1931,2009,2111,2209,2304,2407,2503,2599,2747,7172",
                         "endColumns": "96,92,104,81,97,107,77,74,90,92,94,93,99,92,94,93,90,90,77,101,97,94,102,95,95,147,96,78",
                         "endOffsets": "350,443,548,630,728,836,914,989,1080,1173,1268,1362,1462,1555,1650,1744,1835,1926,2004,2106,2204,2299,2402,2498,2594,2742,2839,7246"
+                    }
+                },
+                {
+                    "source": "/Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,105,163,227,274,318,388,438,486",
+                        "endColumns": "49,57,63,46,43,69,49,47,48",
+                        "endOffsets": "100,158,222,269,313,383,433,481,530"
+                    },
+                    "to": {
+                        "startLines": "86,87,88,89,90,91,92,93,94",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "6619,6669,6727,6791,6838,6882,6952,7002,7050",
+                        "endColumns": "49,57,63,46,43,69,49,47,48",
+                        "endOffsets": "6664,6722,6786,6833,6877,6947,6997,7045,7094"
                     }
                 }
             ]

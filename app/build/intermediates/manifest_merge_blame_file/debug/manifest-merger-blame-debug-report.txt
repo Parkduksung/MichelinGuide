@@ -28,24 +28,24 @@
 17-->[:kakaoMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/kakaoMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-57
 18
 19    <uses-feature
-19-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:9:5-11:35
+19-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:9:5-11:35
 20        android:glEsVersion="0x00020000"
-20-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:10:9-41
+20-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:10:9-41
 21        android:required="true" />
-21-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:11:9-32
+21-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:11:9-32
 22    <uses-feature
-22-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:12:5-14:36
+22-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:12:5-14:36
 23        android:name="android.hardware.wifi"
-23-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:13:9-45
+23-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:13:9-45
 24        android:required="false" />
-24-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:14:9-33
+24-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:14:9-33
 25
 26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-26-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:17:5-79
-26-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:17:22-76
+26-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:17:5-79
+26-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:17:22-76
 27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-27-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:18:5-76
-27-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:18:22-73
+27-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:18:5-76
+27-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:18:22-73
 28
 29    <application
 29-->/Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/AndroidManifest.xml:9:5-26:19
@@ -100,35 +100,35 @@
 56-->[:kakaoMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/kakaoMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-57
 57
 58        <activity
-58-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:21:9-25:51
+58-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:21:9-25:51
 59            android:name="com.naver.maps.map.app.LegendActivity"
-59-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:22:13-65
+59-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:22:13-65
 60            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
-60-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:23:13-91
+60-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:23:13-91
 61            android:label="@string/navermap_legend"
-61-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:24:13-52
+61-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:24:13-52
 62            android:theme="@style/navermap_app" />
-62-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:25:13-48
+62-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:25:13-48
 63        <activity
-63-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:26:9-30:51
+63-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:26:9-30:51
 64            android:name="com.naver.maps.map.app.LegalNoticeActivity"
-64-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:27:13-70
+64-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:27:13-70
 65            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
-65-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:28:13-91
+65-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:28:13-91
 66            android:label="@string/navermap_legal_notice"
-66-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:29:13-58
+66-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:29:13-58
 67            android:theme="@style/navermap_app" />
-67-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:30:13-48
+67-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:30:13-48
 68        <activity
-68-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:31:9-35:51
+68-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:31:9-35:51
 69            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
-69-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:32:13-76
+69-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:32:13-76
 70            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
-70-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:33:13-91
+70-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:33:13-91
 71            android:label="@string/navermap_open_source_license"
-71-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:34:13-65
+71-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:34:13-65
 72            android:theme="@style/navermap_app" />
-72-->[com.naver.maps:map-sdk:3.12.0] /Users/dspark/.gradle/caches/transforms-3/429cafb2a42b45441e227f3b99193574/transformed/jetified-map-sdk-3.12.0/AndroidManifest.xml:35:13-48
+72-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:35:13-48
 73
 74        <provider
 74-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
