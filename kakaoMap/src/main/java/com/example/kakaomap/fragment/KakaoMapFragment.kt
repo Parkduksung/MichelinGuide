@@ -6,19 +6,20 @@ import android.widget.Toast
 import com.example.basemaplib.module.base.BaseFragment
 import com.example.kakaomap.R
 import com.example.kakaomap.databinding.FragmentKakaomapBinding
+import net.daum.mf.map.api.MapPOIItem
 import net.daum.mf.map.api.MapPoint
 import net.daum.mf.map.api.MapView
 
 class KakaoMapFragment : BaseFragment<FragmentKakaomapBinding>(R.layout.fragment_kakaomap) {
 
     override fun getCurrentLocation() {
-        val getMapCenterPoint =
-            binding.kakaomap.mapCenterPoint.mapPointGeoCoord
-        Toast.makeText(
-            requireContext(),
-            "current lat : ${getMapCenterPoint.latitude}, log : ${getMapCenterPoint.longitude}",
-            Toast.LENGTH_SHORT
-        ).show()
+        val position = MapPoint.mapPointWithGeoCoord(37.5670135, 126.9783740)
+        val mapPOIItem = MapPOIItem()
+        mapPOIItem.itemName = "시청"
+        mapPOIItem.markerType = MapPOIItem.MarkerType.YellowPin
+        mapPOIItem.mapPoint = position
+        binding.kakaomap.addPOIItem(mapPOIItem)
+        binding.kakaomap.setMapCenterPoint(position, true)
     }
 
 
@@ -64,6 +65,7 @@ class KakaoMapFragment : BaseFragment<FragmentKakaomapBinding>(R.layout.fragment
         super.onViewCreated(view, savedInstanceState)
 
         binding.kakaomap.setMapViewEventListener(mapViewEventListener)
+
 
     }
 }

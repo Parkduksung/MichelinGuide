@@ -11,6 +11,7 @@
         android:layout_height="match_parent">
 
         <com.naver.maps.map.MapView
+            android:id="@+id/navermap"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 

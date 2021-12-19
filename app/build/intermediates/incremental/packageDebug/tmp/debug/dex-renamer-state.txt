@@ -1,4 +1,4 @@
-#Sun Dec 19 15:05:58 KST 2021
+#Sun Dec 19 15:59:33 KST 2021
 path.4=4/classes.dex
 path.3=3/classes.dex
 path.2=14/classes.dex
@@ -19,6 +19,7 @@ base.8=/Users/dspark/AndroidStudioProjects/MichelinGuide/app/build/intermediates
 base.7=/Users/dspark/AndroidStudioProjects/MichelinGuide/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.6=/Users/dspark/AndroidStudioProjects/MichelinGuide/app/build/intermediates/dex/debug/mergeLibDexDebug/6/classes.dex
 base.5=/Users/dspark/AndroidStudioProjects/MichelinGuide/app/build/intermediates/dex/debug/mergeLibDexDebug/5/classes.dex
+renamed.17=classes18.dex
 renamed.9=classes10.dex
 renamed.16=classes17.dex
 renamed.8=classes9.dex
@@ -28,6 +29,7 @@ renamed.13=classes14.dex
 renamed.12=classes13.dex
 renamed.11=classes12.dex
 renamed.10=classes11.dex
+base.17=/Users/dspark/AndroidStudioProjects/MichelinGuide/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 base.16=/Users/dspark/AndroidStudioProjects/MichelinGuide/app/build/intermediates/dex/debug/mergeLibDexDebug/15/classes.dex
 base.15=/Users/dspark/AndroidStudioProjects/MichelinGuide/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
 base.14=/Users/dspark/AndroidStudioProjects/MichelinGuide/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
@@ -42,6 +44,7 @@ path.11=5/classes.dex
 renamed.7=classes8.dex
 path.16=15/classes.dex
 renamed.6=classes7.dex
+path.17=classes2.dex
 renamed.5=classes6.dex
 path.14=3/classes.dex
 renamed.4=classes5.dex
