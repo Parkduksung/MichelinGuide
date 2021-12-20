@@ -34,6 +34,9 @@ class KakaoMapFragment : BaseFragment<FragmentKakaomapBinding>(R.layout.fragment
         binding.kakaomap.addPOIItem(mapPOIItem)
     }
 
+    override fun showRoute() {
+
+    }
 
     private val mapViewEventListener = object : MapView.MapViewEventListener {
         override fun onMapViewInitialized(p0: MapView?) {

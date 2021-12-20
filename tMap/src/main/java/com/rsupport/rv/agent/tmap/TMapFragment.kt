@@ -24,17 +24,17 @@ class TMapFragment : BaseFragment<FragmentTmapBinding>(R.layout.fragment_tmap) {
     }
 
     private val markerA =
-        Marker(name = "서울시청", mapPoint = TMapPoint(37.5670135, 126.9783740))
+        TMapMarker(name = "서울시청", mapPoint = TMapPoint(37.5670135, 126.9783740))
     private val markerB =
-        Marker(name = "노원역", mapPoint = TMapPoint(37.6563403513278, 127.063449137455))
+        TMapMarker(name = "노원역", mapPoint = TMapPoint(37.6563403513278, 127.063449137455))
 
-    private fun addMarker(marker: Marker) {
+    private fun addMarker(TMapMarker: TMapMarker) {
         val tMapMarkerItem = TMapMarkerItem().apply {
             setPosition(0.5f, 1.0f)
-            this.tMapPoint = marker.mapPoint
-            this.name = marker.name
+            this.tMapPoint = TMapMarker.mapPoint
+            this.name = TMapMarker.name
         }
-        tmapView.addMarkerItem(marker.name, tMapMarkerItem)
+        tmapView.addMarkerItem(TMapMarker.name, tMapMarkerItem)
     }
 
     override fun setMockMarker() {
@@ -62,7 +62,7 @@ class TMapFragment : BaseFragment<FragmentTmapBinding>(R.layout.fragment_tmap) {
         binding.containerTmap.addView(tmapView)
     }
 
-    data class Marker(
+    data class TMapMarker(
         val name: String,
         val mapPoint: TMapPoint
     )

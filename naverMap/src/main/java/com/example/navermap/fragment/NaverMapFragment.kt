@@ -27,21 +27,24 @@ class NaverMapFragment : BaseFragment<FragmentNavermapBinding>(R.layout.fragment
 
     private var naverMap: NaverMap? = null
 
-    private val startPosition = LatLng(37.5670135, 126.9783740)
-    private val endPosition = LatLng(37.6563403513278, 127.063449137455)
+
+    private val markerA =
+        NaverMarker(name = "서울시청", mapPoint = LatLng(37.5670135, 126.9783740))
+    private val markerB =
+        NaverMarker(name = "노원역", mapPoint = LatLng(37.6563403513278, 127.063449137455))
 
     override fun setMockMarker() {
-        addPOIItem(LatLng(37.5670135, 126.9783740), "서울시청")
-        addPOIItem(LatLng(37.6563403513278, 127.063449137455), "노원역")
+        addPOIItem(markerA)
+        addPOIItem(markerB)
         val cameraUpdate = CameraUpdate.zoomTo(10.0)
         naverMap?.moveCamera(cameraUpdate)
         showRoute()
     }
 
-    private fun addPOIItem(latLng: LatLng, name: String) {
+    private fun addPOIItem(naverMarker: NaverMarker) {
         val marker = Marker()
-        marker.position = latLng
-        marker.captionText = name
+        marker.position = naverMarker.mapPoint
+        marker.captionText = naverMarker.name
         marker.map = naverMap
     }
 
@@ -68,8 +71,8 @@ class NaverMapFragment : BaseFragment<FragmentNavermapBinding>(R.layout.fragment
             api.getPath(
                 APIKEY_ID,
                 APIKEY,
-                "${startPosition.longitude},${startPosition.latitude}",
-                "${endPosition.longitude},${endPosition.latitude}"
+                "${markerA.mapPoint.longitude},${markerA.mapPoint.latitude}",
+                "${markerB.mapPoint.longitude},${markerB.mapPoint.latitude}"
             )
 
         callGetPath.enqueue(object : Callback<ResultPath> {
@@ -133,6 +136,11 @@ class NaverMapFragment : BaseFragment<FragmentNavermapBinding>(R.layout.fragment
         super.onLowMemory()
         binding.navermap.onLowMemory()
     }
+
+    data class NaverMarker(
+        val name: String,
+        val mapPoint: LatLng
+    )
 
     override fun getMapFragment(): Fragment = this
 
