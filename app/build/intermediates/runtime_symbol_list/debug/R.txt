@@ -2096,6 +2096,7 @@ int id bounceStart 0x7f090062
 int id btn_current 0x7f090063
 int id btn_kakao 0x7f090064
 int id btn_naver 0x7f090065
+int id btn_tmap 0x7f090208
 int id buttonPanel 0x7f090066
 int id cache_measures 0x7f090067
 int id callMeasure 0x7f090068
@@ -2599,6 +2600,7 @@ int layout design_text_input_end_icon 0x7f0c002b
 int layout design_text_input_start_icon 0x7f0c002c
 int layout fragment_kakaomap 0x7f0c002d
 int layout fragment_navermap 0x7f0c002e
+int layout fragment_tmap 0x7f0c0087
 int layout material_chip_input_combo 0x7f0c002f
 int layout material_clock_display 0x7f0c0030
 int layout material_clock_display_divider 0x7f0c0031

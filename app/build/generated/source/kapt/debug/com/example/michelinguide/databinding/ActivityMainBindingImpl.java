@@ -14,7 +14,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding implements com.
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.container_map, 4);
+        sViewsWithIds.put(R.id.container_map, 5);
     }
     // views
     @NonNull
@@ -22,6 +22,8 @@ public class ActivityMainBindingImpl extends ActivityMainBinding implements com.
     // variables
     @Nullable
     private final android.view.View.OnClickListener mCallback3;
+    @Nullable
+    private final android.view.View.OnClickListener mCallback4;
     @Nullable
     private final android.view.View.OnClickListener mCallback1;
     @Nullable
@@ -31,23 +33,26 @@ public class ActivityMainBindingImpl extends ActivityMainBinding implements com.
     // Inverse Binding Event Handlers
 
     public ActivityMainBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
     }
     private ActivityMainBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.Button) bindings[3]
+            , (android.widget.Button) bindings[4]
             , (android.widget.Button) bindings[2]
             , (android.widget.Button) bindings[1]
-            , (androidx.fragment.app.FragmentContainerView) bindings[4]
+            , (android.widget.Button) bindings[3]
+            , (androidx.fragment.app.FragmentContainerView) bindings[5]
             );
         this.btnCurrent.setTag(null);
         this.btnKakao.setTag(null);
         this.btnNaver.setTag(null);
+        this.btnTmap.setTag(null);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
         mCallback3 = new com.example.michelinguide.generated.callback.OnClickListener(this, 3);
+        mCallback4 = new com.example.michelinguide.generated.callback.OnClickListener(this, 4);
         mCallback1 = new com.example.michelinguide.generated.callback.OnClickListener(this, 1);
         mCallback2 = new com.example.michelinguide.generated.callback.OnClickListener(this, 2);
         invalidateAll();
@@ -111,9 +116,10 @@ public class ActivityMainBindingImpl extends ActivityMainBinding implements com.
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.btnCurrent.setOnClickListener(mCallback3);
+            this.btnCurrent.setOnClickListener(mCallback4);
             this.btnKakao.setOnClickListener(mCallback2);
             this.btnNaver.setOnClickListener(mCallback1);
+            this.btnTmap.setOnClickListener(mCallback3);
         }
     }
     // Listener Stub Implementations
@@ -121,6 +127,25 @@ public class ActivityMainBindingImpl extends ActivityMainBinding implements com.
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
             case 3: {
+                // localize variables for thread safety
+                // activity != null
+                boolean activityJavaLangObjectNull = false;
+                // activity
+                com.example.michelinguide.MainActivity activity = mActivity;
+
+
+
+                activityJavaLangObjectNull = (activity) != (null);
+                if (activityJavaLangObjectNull) {
+
+
+
+
+                    activity.createMap(com.example.michelinlib.factory.MapType.TMAP);
+                }
+                break;
+            }
+            case 4: {
                 // localize variables for thread safety
                 // activity != null
                 boolean activityJavaLangObjectNull = false;

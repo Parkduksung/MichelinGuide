@@ -27,5 +27,7 @@ com/example/michelinguide/DataBinderMapperImpl.java
  com.example.michelinguide.DataBinderMapperImpl
  com.example.michelinguide.DataBinderMapperImpl$InnerBrLookup
  com.example.michelinguide.DataBinderMapperImpl$InnerLayoutIdLookup
+com/rsupport/rv/agent/tmap/BR.java
+ com.rsupport.rv.agent.tmap.BR
 com/example/michelinguide/databinding/ActivityMainBindingImpl.java
  com.example.michelinguide.databinding.ActivityMainBindingImpl

@@ -2097,6 +2097,7 @@ id bounceStart
 id btn_current
 id btn_kakao
 id btn_naver
+id btn_tmap
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2600,6 +2601,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_kakaomap
 layout fragment_navermap
+layout fragment_tmap
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

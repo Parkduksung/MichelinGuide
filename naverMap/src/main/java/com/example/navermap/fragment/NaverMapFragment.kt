@@ -7,7 +7,6 @@ import com.example.basemaplib.module.base.BaseFragment
 import com.example.navermap.R
 import com.example.navermap.databinding.FragmentNavermapBinding
 import com.naver.maps.geometry.LatLng
-import com.naver.maps.geometry.LatLngBounds
 import com.naver.maps.map.CameraUpdate
 import com.naver.maps.map.NaverMap
 import com.naver.maps.map.overlay.Marker

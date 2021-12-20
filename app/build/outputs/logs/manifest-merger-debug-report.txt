@@ -7,6 +7,7 @@ INJECTED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/And
 MERGED from [:michelinlib] /Users/dspark/AndroidStudioProjects/MichelinGuide/michelinlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:naverMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/naverMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:kakaoMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/kakaoMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:tMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/tMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:basemaplib] /Users/dspark/AndroidStudioProjects/MichelinGuide/basemaplib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.databinding:databinding-adapters:7.0.3] /Users/dspark/.gradle/caches/transforms-3/ffd566ccc8e6bc2e156da89fbf39a233/transformed/databinding-adapters-7.0.3/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-ktx:7.0.3] /Users/dspark/.gradle/caches/transforms-3/53a1ce7d93c32753f1b6083b60875ea4/transformed/jetified-databinding-ktx-7.0.3/AndroidManifest.xml:17:1-22:12
@@ -176,6 +177,8 @@ MERGED from [:naverMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/naverM
 MERGED from [:naverMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/naverMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:kakaoMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/kakaoMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:kakaoMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/kakaoMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:tMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/tMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:tMap] /Users/dspark/AndroidStudioProjects/MichelinGuide/tMap/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:basemaplib] /Users/dspark/AndroidStudioProjects/MichelinGuide/basemaplib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:basemaplib] /Users/dspark/AndroidStudioProjects/MichelinGuide/basemaplib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:databinding-adapters:7.0.3] /Users/dspark/.gradle/caches/transforms-3/ffd566ccc8e6bc2e156da89fbf39a233/transformed/databinding-adapters-7.0.3/AndroidManifest.xml:20:5-44

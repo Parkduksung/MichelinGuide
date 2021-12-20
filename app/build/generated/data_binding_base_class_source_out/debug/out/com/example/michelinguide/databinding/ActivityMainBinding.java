@@ -27,17 +27,22 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   public final Button btnNaver;
 
   @NonNull
+  public final Button btnTmap;
+
+  @NonNull
   public final FragmentContainerView containerMap;
 
   @Bindable
   protected MainActivity mActivity;
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button btnCurrent, Button btnKakao, Button btnNaver, FragmentContainerView containerMap) {
+      Button btnCurrent, Button btnKakao, Button btnNaver, Button btnTmap,
+      FragmentContainerView containerMap) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnCurrent = btnCurrent;
     this.btnKakao = btnKakao;
     this.btnNaver = btnNaver;
+    this.btnTmap = btnTmap;
     this.containerMap = containerMap;
   }
 

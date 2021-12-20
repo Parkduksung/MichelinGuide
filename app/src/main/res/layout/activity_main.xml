@@ -36,8 +36,20 @@
             android:onClick="@{() -> activity.createMap(MapType.KAKAO)}"
             android:text="Kakao"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_tmap"
             app:layout_constraintStart_toEndOf="@id/btn_naver"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias=".01" />
+
+        <Button
+            android:id="@+id/btn_tmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> activity.createMap(MapType.TMAP)}"
+            android:text="TMap"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btn_kakao"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias=".01" />
 

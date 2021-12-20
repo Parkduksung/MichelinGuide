@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11503623188405797" />
         <entry key="kakaoMap/src/main/res/layout/fragment_kakaomap.xml" value="0.12234042553191489" />
         <entry key="naverMap/src/main/res/layout/fragment_navermap.xml" value="0.12234042553191489" />
+        <entry key="tMap/src/main/res/layout/fragment_navermap.xml" value="0.192481884057971" />
       </map>
     </option>
   </component>
