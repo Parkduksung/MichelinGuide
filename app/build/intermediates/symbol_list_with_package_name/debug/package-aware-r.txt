@@ -2095,9 +2095,10 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btn_current
 id btn_kakao
+id btn_mock
 id btn_naver
+id btn_route
 id btn_tmap
 id buttonPanel
 id cache_measures

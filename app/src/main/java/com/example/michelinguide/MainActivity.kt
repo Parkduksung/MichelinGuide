@@ -48,6 +48,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    fun showRoute(){
+        if (::mapProvider.isInitialized) {
+            mapEventListener.showRoute()
+        } else {
+            Toast.makeText(this, "맵선택을 하세요.", Toast.LENGTH_SHORT).show()
+        }
+    }
+
 
     private fun checkPermission(callback: (Boolean) -> Unit) {
         if (ContextCompat.checkSelfPermission(

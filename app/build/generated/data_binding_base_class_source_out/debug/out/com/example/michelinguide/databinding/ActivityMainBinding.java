@@ -18,13 +18,16 @@ import java.lang.Object;
 
 public abstract class ActivityMainBinding extends ViewDataBinding {
   @NonNull
-  public final Button btnCurrent;
-
-  @NonNull
   public final Button btnKakao;
 
   @NonNull
+  public final Button btnMock;
+
+  @NonNull
   public final Button btnNaver;
+
+  @NonNull
+  public final Button btnRoute;
 
   @NonNull
   public final Button btnTmap;
@@ -36,12 +39,13 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   protected MainActivity mActivity;
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button btnCurrent, Button btnKakao, Button btnNaver, Button btnTmap,
+      Button btnKakao, Button btnMock, Button btnNaver, Button btnRoute, Button btnTmap,
       FragmentContainerView containerMap) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.btnCurrent = btnCurrent;
     this.btnKakao = btnKakao;
+    this.btnMock = btnMock;
     this.btnNaver = btnNaver;
+    this.btnRoute = btnRoute;
     this.btnTmap = btnTmap;
     this.containerMap = containerMap;
   }

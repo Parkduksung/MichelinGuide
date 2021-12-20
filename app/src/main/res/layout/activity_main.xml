@@ -54,14 +54,26 @@
             app:layout_constraintVertical_bias=".01" />
 
         <Button
-            android:id="@+id/btn_current"
+            android:id="@+id/btn_mock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="@{()->activity.setMockMarker()}"
             android:text="Set_Mock_Marker"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_route"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias=".95" />
+
+        <Button
+            android:id="@+id/btn_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{()->activity.showRoute()}"
+            android:text="Show_Route"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btn_mock"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias=".95" />
 

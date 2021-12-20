@@ -3,7 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.11503623188405797" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="kakaoMap/src/main/res/layout/fragment_kakaomap.xml" value="0.12234042553191489" />
         <entry key="naverMap/src/main/res/layout/fragment_navermap.xml" value="0.12234042553191489" />
         <entry key="tMap/src/main/res/drawable/a.xml" value="0.24814814814814815" />

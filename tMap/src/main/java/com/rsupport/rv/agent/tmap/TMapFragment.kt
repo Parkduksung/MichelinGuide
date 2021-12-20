@@ -13,7 +13,6 @@ import com.skt.Tmap.TMapView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 
 
 class TMapFragment : BaseFragment<FragmentTmapBinding>(R.layout.fragment_tmap) {
@@ -42,19 +41,19 @@ class TMapFragment : BaseFragment<FragmentTmapBinding>(R.layout.fragment_tmap) {
         addMarker(markerA)
         addMarker(markerB)
         tmapView.setZoom(11.0f)
-        CoroutineScope(Dispatchers.IO).launch {
-            showRoute(markerA.mapPoint, markerB.mapPoint)
-        }
+
     }
 
-    private suspend fun showRoute(start: TMapPoint, end: TMapPoint) = withContext(Dispatchers.IO) {
-        try {
-            val tMapPolyLine = TMapData().findPathData(start, end)
-            tMapPolyLine.lineColor = Color.BLUE
-            tMapPolyLine.lineWidth = 10f
-            tmapView.addTMapPolyLine("tMapPolyLine", tMapPolyLine)
-        } catch (e: Exception) {
-            e.printStackTrace()
+    override fun showRoute() {
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val tMapPolyLine = TMapData().findPathData(markerA.mapPoint, markerB.mapPoint)
+                tMapPolyLine.lineColor = Color.BLUE
+                tMapPolyLine.lineWidth = 10f
+                tmapView.addTMapPolyLine("tMapPolyLine", tMapPolyLine)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
         }
     }
 
