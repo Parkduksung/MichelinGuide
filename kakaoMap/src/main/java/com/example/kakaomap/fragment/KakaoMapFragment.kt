@@ -2,7 +2,6 @@ package com.example.kakaomap.fragment
 
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import com.example.basemaplib.module.base.BaseFragment
 import com.example.kakaomap.R
 import com.example.kakaomap.databinding.FragmentKakaomapBinding
@@ -12,14 +11,27 @@ import net.daum.mf.map.api.MapView
 
 class KakaoMapFragment : BaseFragment<FragmentKakaomapBinding>(R.layout.fragment_kakaomap) {
 
-    override fun getCurrentLocation() {
-        val position = MapPoint.mapPointWithGeoCoord(37.5670135, 126.9783740)
-        val mapPOIItem = MapPOIItem()
-        mapPOIItem.itemName = "시청"
-        mapPOIItem.markerType = MapPOIItem.MarkerType.YellowPin
-        mapPOIItem.mapPoint = position
+    override fun setMockMarker() {
+        addPOIItem(
+            MapPoint.mapPointWithGeoCoord(37.5670135, 126.9783740),
+            "서울시청"
+        )
+
+        addPOIItem(
+            MapPoint.mapPointWithGeoCoord(37.6563403513278, 127.063449137455),
+            "노원역"
+        )
+
+        binding.kakaomap.setZoomLevel(7,true)
+    }
+
+    private fun addPOIItem(mapPoint: MapPoint, name: String) {
+        val mapPOIItem = MapPOIItem().apply {
+            itemName = name
+            markerType = MapPOIItem.MarkerType.RedPin
+            this.mapPoint = mapPoint
+        }
         binding.kakaomap.addPOIItem(mapPOIItem)
-        binding.kakaomap.setMapCenterPoint(position, true)
     }
 
 
@@ -63,9 +75,6 @@ class KakaoMapFragment : BaseFragment<FragmentKakaomapBinding>(R.layout.fragment
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         binding.kakaomap.setMapViewEventListener(mapViewEventListener)
-
-
     }
 }

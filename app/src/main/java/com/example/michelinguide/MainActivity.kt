@@ -3,6 +3,7 @@ package com.example.michelinguide
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
@@ -39,9 +40,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun currentLocation() {
-        mapEventListener.getCurrentLocation()
+    fun setMockMarker() {
+        if (::mapProvider.isInitialized) {
+            mapEventListener.setMockMarker()
+        } else {
+            Toast.makeText(this, "맵선택을 하세요.", Toast.LENGTH_SHORT).show()
+        }
     }
+
 
     private fun checkPermission(callback: (Boolean) -> Unit) {
         if (ContextCompat.checkSelfPermission(

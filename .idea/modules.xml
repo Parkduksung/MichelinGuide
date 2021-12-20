@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kakaoMap/MichelinGuide.kakaoMap.iml" filepath="$PROJECT_DIR$/.idea/modules/kakaoMap/MichelinGuide.kakaoMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/michelinlib/MichelinGuide.michelinlib.iml" filepath="$PROJECT_DIR$/.idea/modules/michelinlib/MichelinGuide.michelinlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/naverMap/MichelinGuide.naverMap.iml" filepath="$PROJECT_DIR$/.idea/modules/naverMap/MichelinGuide.naverMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tMap/MichelinGuide.tMap.iml" filepath="$PROJECT_DIR$/.idea/modules/tMap/MichelinGuide.tMap.iml" />
     </modules>
   </component>
 </project>
