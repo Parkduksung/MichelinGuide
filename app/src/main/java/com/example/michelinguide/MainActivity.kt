@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun showRoute(){
+    fun showRoute() {
         if (::mapProvider.isInitialized) {
             mapEventListener.showRoute()
         } else {

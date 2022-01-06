@@ -130,42 +130,55 @@
 72            android:theme="@style/navermap_app" />
 72-->[com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:35:13-48
 73        <activity
-73-->[com.google.android.gms:play-services-base:18.0.0] /Users/dspark/.gradle/caches/transforms-3/e4d6350b69345a5dc7de7dfc9dccf1f1/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
-74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-74-->[com.google.android.gms:play-services-base:18.0.0] /Users/dspark/.gradle/caches/transforms-3/e4d6350b69345a5dc7de7dfc9dccf1f1/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:19-85
-75            android:exported="false"
-75-->[com.google.android.gms:play-services-base:18.0.0] /Users/dspark/.gradle/caches/transforms-3/e4d6350b69345a5dc7de7dfc9dccf1f1/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:22:19-43
-76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-76-->[com.google.android.gms:play-services-base:18.0.0] /Users/dspark/.gradle/caches/transforms-3/e4d6350b69345a5dc7de7dfc9dccf1f1/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:21:19-78
-77
-78        <meta-data
-78-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dspark/.gradle/caches/transforms-3/2824e0df95cd1593e295b4ed35b1e7b7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
-79            android:name="com.google.android.gms.version"
-79-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dspark/.gradle/caches/transforms-3/2824e0df95cd1593e295b4ed35b1e7b7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
-80            android:value="@integer/google_play_services_version" />
-80-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dspark/.gradle/caches/transforms-3/2824e0df95cd1593e295b4ed35b1e7b7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
-81
-82        <provider
-82-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-83            android:name="androidx.startup.InitializationProvider"
-83-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-84            android:authorities="com.example.michelinguide.androidx-startup"
-84-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-85            android:exported="false" >
-85-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-86            <meta-data
-86-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-87-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-88                android:value="androidx.startup" />
-88-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-89            <meta-data
-89-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dspark/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-90-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dspark/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-91                android:value="androidx.startup" />
-91-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dspark/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-92        </provider>
-93    </application>
-94
-95</manifest>
+73-->[com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:12:9-18:20
+74            android:name="com.kakao.kakaonavi.KakaoNaviWebViewActivity"
+74-->[com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:13:13-72
+75            android:configChanges="orientation|screenSize"
+75-->[com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:14:13-59
+76            android:launchMode="singleTop"
+76-->[com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:15:13-43
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+77-->[com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:16:13-72
+78            android:windowSoftInputMode="adjustResize" >
+78-->[com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:17:13-55
+79        </activity>
+80        <activity
+80-->[com.google.android.gms:play-services-base:18.0.0] /Users/dspark/.gradle/caches/transforms-3/e4d6350b69345a5dc7de7dfc9dccf1f1/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
+81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+81-->[com.google.android.gms:play-services-base:18.0.0] /Users/dspark/.gradle/caches/transforms-3/e4d6350b69345a5dc7de7dfc9dccf1f1/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:19-85
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-base:18.0.0] /Users/dspark/.gradle/caches/transforms-3/e4d6350b69345a5dc7de7dfc9dccf1f1/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:22:19-43
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+83-->[com.google.android.gms:play-services-base:18.0.0] /Users/dspark/.gradle/caches/transforms-3/e4d6350b69345a5dc7de7dfc9dccf1f1/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:21:19-78
+84
+85        <meta-data
+85-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dspark/.gradle/caches/transforms-3/2824e0df95cd1593e295b4ed35b1e7b7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+86            android:name="com.google.android.gms.version"
+86-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dspark/.gradle/caches/transforms-3/2824e0df95cd1593e295b4ed35b1e7b7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+87            android:value="@integer/google_play_services_version" />
+87-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dspark/.gradle/caches/transforms-3/2824e0df95cd1593e295b4ed35b1e7b7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+88
+89        <provider
+89-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+91            android:authorities="com.example.michelinguide.androidx-startup"
+91-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+92            android:exported="false" >
+92-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dspark/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dspark/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dspark/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+99        </provider>
+100    </application>
+101
+102</manifest>

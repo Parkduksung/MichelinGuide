@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "63176125751",
+    "project_id": "michelinguide-906f5",
+    "storage_bucket": "michelinguide-906f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63176125751:android:7533590fbeddb2d357feb2",
+        "android_client_info": {
+          "package_name": "com.example.michelinguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63176125751-o4alttd0tup8a3j5aj7ludgbiivivp2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVbEQ7fAQ4xQM_U6SAUqizl4ZE8Rvd060"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63176125751-o4alttd0tup8a3j5aj7ludgbiivivp2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

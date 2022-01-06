@@ -71,6 +71,13 @@
             android:label="@string/navermap_open_source_license"
             android:theme="@style/navermap_app" />
         <activity
+            android:name="com.kakao.kakaonavi.KakaoNaviWebViewActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />

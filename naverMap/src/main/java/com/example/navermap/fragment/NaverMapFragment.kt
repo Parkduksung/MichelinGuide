@@ -27,7 +27,6 @@ class NaverMapFragment : BaseFragment<FragmentNavermapBinding>(R.layout.fragment
 
     private var naverMap: NaverMap? = null
 
-
     private val markerA =
         NaverMarker(name = "서울시청", mapPoint = LatLng(37.5670135, 126.9783740))
     private val markerB =
@@ -38,7 +37,6 @@ class NaverMapFragment : BaseFragment<FragmentNavermapBinding>(R.layout.fragment
         addPOIItem(markerB)
         val cameraUpdate = CameraUpdate.zoomTo(10.0)
         naverMap?.moveCamera(cameraUpdate)
-        showRoute()
     }
 
     private fun addPOIItem(naverMarker: NaverMarker) {
@@ -79,6 +77,7 @@ class NaverMapFragment : BaseFragment<FragmentNavermapBinding>(R.layout.fragment
 
             override fun onResponse(call: Call<ResultPath>, response: Response<ResultPath>) {
                 response.body()?.let {
+
                     val toCoordsList = it.route.traoptimal[0].path.map { location ->
                         LatLng(location[1], location[0])
                     }

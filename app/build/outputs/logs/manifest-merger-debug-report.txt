@@ -16,6 +16,7 @@ MERGED from [androidx.core:core-ktx:1.7.0] /Users/dspark/.gradle/caches/transfor
 MERGED from [com.google.android.material:material:1.4.0] /Users/dspark/.gradle/caches/transforms-3/0a2abf7e181c5770d82904112c96f8dd/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/dspark/.gradle/caches/transforms-3/cc253e1064e548dd1869e727f3d493ce/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:2:1-38:12
+MERGED from [com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:2:1-21:12
 MERGED from [androidx.appcompat:appcompat:1.4.0] /Users/dspark/.gradle/caches/transforms-3/f57567925e7fa33de7bf4ed4afc92d47/transformed/appcompat-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/dspark/.gradle/caches/transforms-3/97f8b53679281250be0b35776e650eb0/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/dspark/.gradle/caches/transforms-3/87021d6569d10b8e50fcd7ce60d73d47/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -64,12 +65,14 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/dspark/.gradle/caches
 MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/dspark/.gradle/caches/transforms-3/bf9d933fff584b1e2b39335e92e2f46d/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/dspark/.gradle/caches/transforms-3/5b8c1903285b5d629bcf0683914b4ca7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.naver.maps:geometry:1.2.0] /Users/dspark/.gradle/caches/transforms-3/fda2e9ecf66667b423128d89d93d1522/transformed/jetified-geometry-1.2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:common:1.17.0] /Users/dspark/.gradle/caches/transforms-3/feedd5a92f9d2944c2ace2dea53c38c0/transformed/jetified-common-1.17.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dspark/.gradle/caches/transforms-3/6f9a4e4e8cefca00ea171c630bb5b869/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dspark/.gradle/caches/transforms-3/5d97a366d17b9a52401d1249bbc18623/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dspark/.gradle/caches/transforms-3/924db5bfe5c57b30b73f6f45c724441e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/dspark/.gradle/caches/transforms-3/42ffa41eed66a835645ab26fba929fd1/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/dspark/.gradle/caches/transforms-3/4ec61633d6d3cdffce59747229c850df/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/dspark/.gradle/caches/transforms-3/5136fa200b672ddf119d166c3fca1872/transformed/jetified-relinker-1.4.3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.kakao.sdk:util:1.17.0] /Users/dspark/.gradle/caches/transforms-3/6ede2482160b3ade3e1fccc2d4473734/transformed/jetified-util-1.17.0/AndroidManifest.xml:2:1-11:12
 INJECTED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/AndroidManifest.xml:2:1-28:12
@@ -113,6 +116,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/dspark/.gr
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/dspark/.gradle/caches/transforms-3/cc253e1064e548dd1869e727f3d493ce/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
 MERGED from [com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:20:5-36:19
 MERGED from [com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:20:5-36:19
+MERGED from [com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:11:5-19:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/dspark/.gradle/caches/transforms-3/97f8b53679281250be0b35776e650eb0/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/dspark/.gradle/caches/transforms-3/97f8b53679281250be0b35776e650eb0/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.gms:play-services-location:19.0.0] /Users/dspark/.gradle/caches/transforms-3/3c6b67cbc8fa9aa83545d405263c7cfa/transformed/jetified-play-services-location-19.0.0/AndroidManifest.xml:7:5-20
@@ -195,6 +200,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/dspark/.gr
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/dspark/.gradle/caches/transforms-3/cc253e1064e548dd1869e727f3d493ce/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.4.0] /Users/dspark/.gradle/caches/transforms-3/f57567925e7fa33de7bf4ed4afc92d47/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.0] /Users/dspark/.gradle/caches/transforms-3/f57567925e7fa33de7bf4ed4afc92d47/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/dspark/.gradle/caches/transforms-3/97f8b53679281250be0b35776e650eb0/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
@@ -291,6 +298,8 @@ MERGED from [androidx.tracing:tracing:1.0.0] /Users/dspark/.gradle/caches/transf
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/dspark/.gradle/caches/transforms-3/5b8c1903285b5d629bcf0683914b4ca7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.naver.maps:geometry:1.2.0] /Users/dspark/.gradle/caches/transforms-3/fda2e9ecf66667b423128d89d93d1522/transformed/jetified-geometry-1.2.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.naver.maps:geometry:1.2.0] /Users/dspark/.gradle/caches/transforms-3/fda2e9ecf66667b423128d89d93d1522/transformed/jetified-geometry-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:common:1.17.0] /Users/dspark/.gradle/caches/transforms-3/feedd5a92f9d2944c2ace2dea53c38c0/transformed/jetified-common-1.17.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:common:1.17.0] /Users/dspark/.gradle/caches/transforms-3/feedd5a92f9d2944c2ace2dea53c38c0/transformed/jetified-common-1.17.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dspark/.gradle/caches/transforms-3/6f9a4e4e8cefca00ea171c630bb5b869/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dspark/.gradle/caches/transforms-3/6f9a4e4e8cefca00ea171c630bb5b869/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dspark/.gradle/caches/transforms-3/5d97a366d17b9a52401d1249bbc18623/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
@@ -303,6 +312,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/dspark/.g
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/dspark/.gradle/caches/transforms-3/4ec61633d6d3cdffce59747229c850df/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/dspark/.gradle/caches/transforms-3/5136fa200b672ddf119d166c3fca1872/transformed/jetified-relinker-1.4.3/AndroidManifest.xml:5:5-43
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] /Users/dspark/.gradle/caches/transforms-3/5136fa200b672ddf119d166c3fca1872/transformed/jetified-relinker-1.4.3/AndroidManifest.xml:5:5-43
+MERGED from [com.kakao.sdk:util:1.17.0] /Users/dspark/.gradle/caches/transforms-3/6ede2482160b3ade3e1fccc2d4473734/transformed/jetified-util-1.17.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:util:1.17.0] /Users/dspark/.gradle/caches/transforms-3/6ede2482160b3ade3e1fccc2d4473734/transformed/jetified-util-1.17.0/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/AndroidManifest.xml
 INJECTED from /Users/dspark/AndroidStudioProjects/MichelinGuide/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -375,6 +386,18 @@ ADDED from [com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transfor
 		ADDED from [com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:35:13-48
 	android:name
 		ADDED from [com.naver.maps:map-sdk:3.13.0] /Users/dspark/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml:32:13-76
+activity#com.kakao.kakaonavi.KakaoNaviWebViewActivity
+ADDED from [com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:12:9-18:20
+	android:launchMode
+		ADDED from [com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:15:13-43
+	android:windowSoftInputMode
+		ADDED from [com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:17:13-55
+	android:configChanges
+		ADDED from [com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:14:13-59
+	android:theme
+		ADDED from [com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:16:13-72
+	android:name
+		ADDED from [com.kakao.sdk:kakaonavi:1.17.0] /Users/dspark/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml:13:13-72
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/dspark/.gradle/caches/transforms-3/e4d6350b69345a5dc7de7dfc9dccf1f1/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
 	android:exported

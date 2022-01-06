@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kakao.sdk:kakaonavi:1.17.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/882269a751907c0b38a011070690b27d/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8bf9c278fa923a7e2a7ac60ad138260c/transformed/jetified-kakaonavi-1.17.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8bf9c278fa923a7e2a7ac60ad138260c/transformed/jetified-kakaonavi-1.17.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8bf9c278fa923a7e2a7ac60ad138260c/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kakao.sdk/kakaonavi/1.17.0/9e573bed6744dc6fa48390b744ea56193a4c1a9b/kakaonavi-1.17.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
