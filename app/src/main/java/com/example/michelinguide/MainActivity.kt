@@ -3,6 +3,7 @@ package com.example.michelinguide
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -20,6 +21,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var mapProvider: MapProvider
 
     private lateinit var mapEventListener: MapEventListener
+
+    private lateinit var gpsTracker: GpsTracker
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,6 +54,21 @@ class MainActivity : AppCompatActivity() {
     fun showRoute() {
         if (::mapProvider.isInitialized) {
             mapEventListener.showRoute()
+            gpsTracker = GpsTracker(application)
+            when (val result = gpsTracker.getLocation()) {
+
+                is Result.Success -> {
+                    result.data.addOnCompleteListener { task ->
+                        val location = task.result
+                        Log.d("결과 - lat", location.latitude.toString())
+                        Log.d("결과 - long", location.longitude.toString())
+                    }
+                }
+
+                is Result.Error -> {
+
+                }
+            }
         } else {
             Toast.makeText(this, "맵선택을 하세요.", Toast.LENGTH_SHORT).show()
         }
