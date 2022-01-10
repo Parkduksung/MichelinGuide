@@ -1,8 +1,10 @@
 package com.example.navermap.fragment
 
+import android.app.AlertDialog
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.basemaplib.module.base.BaseFragment
 import com.example.navermap.R
@@ -10,6 +12,7 @@ import com.example.navermap.databinding.FragmentNavermapBinding
 import com.example.navermap.fragment.api.NaverApi
 import com.example.navermap.fragment.api.response.ResultPath
 import com.naver.maps.geometry.LatLng
+import com.naver.maps.geometry.LatLngBounds
 import com.naver.maps.map.CameraPosition
 import com.naver.maps.map.CameraUpdate
 import com.naver.maps.map.NaverMap
@@ -27,6 +30,13 @@ class NaverMapFragment : BaseFragment<FragmentNavermapBinding>(R.layout.fragment
     private lateinit var locationSource: FusedLocationSource
 
     private var naverMap: NaverMap? = null
+
+    private val naverApi by lazy {
+        Retrofit.Builder().baseUrl(BASE_URL)
+            .addConverterFactory(GsonConverterFactory.create()).build().create(NaverApi::class.java)
+    }
+
+    private lateinit var currentMarker: NaverMarker
 
     private val markerA =
         NaverMarker(name = "서울시청", mapPoint = LatLng(37.5670135, 126.9783740))
@@ -53,12 +63,81 @@ class NaverMapFragment : BaseFragment<FragmentNavermapBinding>(R.layout.fragment
         locationSource = FusedLocationSource(this, LOCATION_PERMISSION_REQUEST_CODE)
 
         binding.navermap.getMapAsync {
-            naverMap = it
+            naverMap = it.apply {
+                setOnMapLongClickListener { _, latLng ->
+                    val builder = AlertDialog.Builder(requireContext())
+                    builder.setMessage("현재 위치부터 클릭한 위치까지의 경로를 맵에 표시하시겠습니까?")
+                    builder.setPositiveButton(android.R.string.yes) { _, _ ->
+
+
+                        val clickMarker = NaverMarker(name = "Click Location", mapPoint = latLng)
+
+
+                        val callGetPath =
+                            naverApi.getPath(
+                                APIKEY_ID,
+                                APIKEY,
+                                "${currentMarker.mapPoint.longitude},${currentMarker.mapPoint.latitude}",
+                                "${clickMarker.mapPoint.longitude},${clickMarker.mapPoint.latitude}"
+                            )
+
+                        callGetPath.enqueue(object : Callback<ResultPath> {
+
+                            override fun onResponse(
+                                call: Call<ResultPath>,
+                                response: Response<ResultPath>
+                            ) {
+                                response.body()?.let {
+
+                                    val toCoordsList = it.route.traoptimal[0].path.map { location ->
+                                        LatLng(location[1], location[0])
+                                    }
+                                    val path = PathOverlay().apply {
+                                        coords = toCoordsList
+                                        color = Color.GREEN
+                                        width = 10
+                                    }
+
+                                    path.map = naverMap
+
+                                    val latLngBounds = LatLngBounds.Builder()
+                                    latLngBounds.include(currentMarker.mapPoint)
+                                    latLngBounds.include(clickMarker.mapPoint)
+
+                                    addPOIItem(clickMarker)
+                                    val cameraUpdate = CameraUpdate.fitBounds(latLngBounds.build())
+                                    naverMap?.moveCamera(cameraUpdate)
+
+
+                                    binding.time.bringToFront()
+                                    binding.time.text =
+                                        "소요시간 : ${(it.route.traoptimal[0].summary.duration) / (1000 * 60)}분"
+                                }
+                            }
+
+                            override fun onFailure(call: Call<ResultPath>, t: Throwable) {
+
+                            }
+                        })
+                    }
+
+                    builder.setNegativeButton(android.R.string.no) { _, _ ->
+                        Toast.makeText(
+                            requireContext(),
+                            android.R.string.no, Toast.LENGTH_SHORT
+                        ).show()
+                    }
+                    builder.setCancelable(false)
+                    builder.show()
+                }
+            }
+
         }
     }
 
+
     override fun getCurrentLocation(lat: Double, long: Double) {
-        val currentMarker = NaverMarker(name = "Current Location", mapPoint = LatLng(lat, long))
+        currentMarker = NaverMarker(name = "Current Location", mapPoint = LatLng(lat, long))
         addPOIItem(currentMarker)
         val cameraUpdate = CameraUpdate.scrollTo(LatLng(lat, long))
         naverMap?.moveCamera(cameraUpdate)
@@ -66,15 +145,9 @@ class NaverMapFragment : BaseFragment<FragmentNavermapBinding>(R.layout.fragment
 
     override fun showRoute() {
 
-        val retrofit =
-            Retrofit.Builder().baseUrl(BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create()).build()
-
-        val api = retrofit.create(NaverApi::class.java)
-
 
         val callGetPath =
-            api.getPath(
+            naverApi.getPath(
                 APIKEY_ID,
                 APIKEY,
                 "${markerA.mapPoint.longitude},${markerA.mapPoint.latitude}",
