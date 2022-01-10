@@ -4,4 +4,5 @@ interface MapEventListener {
 
     fun setMockMarker()
     fun showRoute()
+    fun getCurrentLocation(lat: Double, long: Double)
 }

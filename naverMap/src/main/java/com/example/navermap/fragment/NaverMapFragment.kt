@@ -56,6 +56,10 @@ class NaverMapFragment : BaseFragment<FragmentNavermapBinding>(R.layout.fragment
         }
     }
 
+    override fun getCurrentLocation(lat: Double, long: Double) {
+
+    }
+
     override fun showRoute() {
 
         val retrofit =

@@ -57,6 +57,10 @@ class TMapFragment : BaseFragment<FragmentTmapBinding>(R.layout.fragment_tmap) {
         }
     }
 
+    override fun getCurrentLocation(lat: Double, long: Double) {
+
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.containerTmap.addView(tmapView)

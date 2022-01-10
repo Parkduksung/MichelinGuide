@@ -50,7 +50,6 @@ class KakaoMapFragment : BaseFragment<FragmentKakaomapBinding>(R.layout.fragment
         Log.d("결과", "여기나옴?!")
 
 
-
         callDirection.getDirection("126.9783740,37.5670135", "127.063449137455,37.6563403513278").enqueue(object  : Callback<DirectionResponse>{
             override fun onResponse(
                 call: Call<DirectionResponse>,
@@ -80,6 +79,9 @@ class KakaoMapFragment : BaseFragment<FragmentKakaomapBinding>(R.layout.fragment
 
     }
 
+    override fun getCurrentLocation(lat: Double, long: Double) {
+
+    }
 
     private val mapViewEventListener = object : MapView.MapViewEventListener {
         override fun onMapViewInitialized(p0: MapView?) {
