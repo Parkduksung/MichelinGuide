@@ -11,12 +11,6 @@ import com.google.android.gms.tasks.Task
 
 class GpsTracker(private val application: Application) {
 
-    //현재의 경도
-    private var currentLongitude: Double = 0.0
-
-    //현재의 위도
-    private var currentLatitude: Double = 0.0
-
     private val fusedLocationProviderClient: FusedLocationProviderClient by lazy {
         LocationServices.getFusedLocationProviderClient(application)
     }
@@ -36,16 +30,6 @@ class GpsTracker(private val application: Application) {
         } catch (e: Exception) {
             Result.Error(e)
         }
-    }
-
-
-    //외부에서 현재 위도, 경도 (캡슐화 원리)
-    fun getCurrentLongitude(): Double = currentLongitude
-    fun getCurrentLatitude(): Double = currentLatitude
-
-
-    fun onCancel() {
-        cancellationTokenSource.cancel()
     }
 
 }
