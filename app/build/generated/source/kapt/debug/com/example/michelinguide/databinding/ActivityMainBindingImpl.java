@@ -181,7 +181,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding implements com.
                 if (activityJavaLangObjectNull) {
 
 
-                    activity.setMockMarker();
+                    activity.showCurrentLocation();
                 }
                 break;
             }

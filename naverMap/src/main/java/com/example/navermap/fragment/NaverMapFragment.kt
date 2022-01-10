@@ -10,6 +10,7 @@ import com.example.navermap.databinding.FragmentNavermapBinding
 import com.example.navermap.fragment.api.NaverApi
 import com.example.navermap.fragment.api.response.ResultPath
 import com.naver.maps.geometry.LatLng
+import com.naver.maps.map.CameraPosition
 import com.naver.maps.map.CameraUpdate
 import com.naver.maps.map.NaverMap
 import com.naver.maps.map.overlay.Marker
@@ -57,7 +58,10 @@ class NaverMapFragment : BaseFragment<FragmentNavermapBinding>(R.layout.fragment
     }
 
     override fun getCurrentLocation(lat: Double, long: Double) {
-
+        val currentMarker = NaverMarker(name = "Current Location", mapPoint = LatLng(lat, long))
+        addPOIItem(currentMarker)
+        val cameraUpdate = CameraUpdate.scrollTo(LatLng(lat, long))
+        naverMap?.moveCamera(cameraUpdate)
     }
 
     override fun showRoute() {

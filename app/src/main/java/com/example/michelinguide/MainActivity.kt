@@ -51,24 +51,36 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun showRoute() {
+    fun showCurrentLocation() {
         if (::mapProvider.isInitialized) {
-            mapEventListener.showRoute()
             gpsTracker = GpsTracker(application)
             when (val result = gpsTracker.getLocation()) {
 
                 is Result.Success -> {
                     result.data.addOnCompleteListener { task ->
                         val location = task.result
-                        Log.d("결과 - lat", location.latitude.toString())
-                        Log.d("결과 - long", location.longitude.toString())
+                        mapProvider.getCurrentLocation(
+                            lat = location.latitude,
+                            long = location.longitude
+                        )
                     }
                 }
 
                 is Result.Error -> {
-
+                    Toast.makeText(this, "현재 위치를 가져올 수 없습니다.", Toast.LENGTH_SHORT).show()
                 }
             }
+        } else {
+            Toast.makeText(this, "맵선택을 하세요.", Toast.LENGTH_SHORT).show()
+        }
+
+    }
+
+
+    fun showRoute() {
+        if (::mapProvider.isInitialized) {
+            mapEventListener.showRoute()
+
         } else {
             Toast.makeText(this, "맵선택을 하세요.", Toast.LENGTH_SHORT).show()
         }
