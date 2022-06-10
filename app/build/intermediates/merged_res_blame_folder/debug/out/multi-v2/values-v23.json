@@ -4,7 +4,26 @@
             "outputFile": "/Users/dspark/AndroidStudioProjects/MichelinGuide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/dspark/.gradle/caches/transforms-3/8c417df62cc147c95e755aade48bfa41/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/dspark/.gradle/caches/transforms-3/98ea615e92761d2c83df334c56abcf62/transformed/material-1.4.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,320",
+                        "endLines": "5,9",
+                        "endColumns": "10,10",
+                        "endOffsets": "315,588"
+                    },
+                    "to": {
+                        "startLines": "53,57",
+                        "startColumns": "4,4",
+                        "startOffsets": "3674,3939",
+                        "endLines": "56,60",
+                        "endColumns": "10,10",
+                        "endOffsets": "3934,4207"
+                    }
+                },
+                {
+                    "source": "/Users/dspark/.gradle/caches/transforms-3/e0cdbca297856f83ac8079aca029d82e/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/dspark/.gradle/caches/transforms-3/00ccc52c1c94b0360a1d073bfc400a67/transformed/appcompat-1.4.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/dspark/.gradle/caches/transforms-3/a677cce5b6b4fbae82adda78843435e1/transformed/appcompat-1.4.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -31,25 +50,6 @@
                         "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
                         "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
                         "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
-                    }
-                },
-                {
-                    "source": "/Users/dspark/.gradle/caches/transforms-3/8432b90fc6bcaada0c23c5278ce0f490/transformed/material-1.4.0/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,6",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,320",
-                        "endLines": "5,9",
-                        "endColumns": "10,10",
-                        "endOffsets": "315,588"
-                    },
-                    "to": {
-                        "startLines": "53,57",
-                        "startColumns": "4,4",
-                        "startOffsets": "3674,3939",
-                        "endLines": "56,60",
-                        "endColumns": "10,10",
-                        "endOffsets": "3934,4207"
                     }
                 }
             ]

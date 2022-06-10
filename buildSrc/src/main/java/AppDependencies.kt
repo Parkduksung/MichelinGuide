@@ -19,12 +19,12 @@ object AppDependencies {
     private val espressoCore = "androidx.test.espresso:espresso-core:${Versions.espresso}"
 
     val appLibraries = arrayListOf<String>().apply {
-        add(kotlinStdLib)
         add(coreKtx)
         add(appcompat)
         add(material)
         add(constraintLayout)
     }
+
 
     val androidTestLibraries = arrayListOf<String>().apply {
         add(extJUnit)

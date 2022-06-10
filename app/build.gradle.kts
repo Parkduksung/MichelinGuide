@@ -53,6 +53,7 @@ dependencies {
 
     implementation(project(":michelinlib"))
 
+    implementation(AppDependencies.kotlinStdLib)
     //app libs
     implementation(AppDependencies.appLibraries)
 

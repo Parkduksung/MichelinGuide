@@ -4,7 +4,7 @@
             "outputFile": "/Users/dspark/AndroidStudioProjects/MichelinGuide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/dspark/.gradle/caches/transforms-3/00ccc52c1c94b0360a1d073bfc400a67/transformed/appcompat-1.4.0/res/values-v28/values-v28.xml",
+                    "source": "/Users/dspark/.gradle/caches/transforms-3/a677cce5b6b4fbae82adda78843435e1/transformed/appcompat-1.4.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/dspark/.gradle/caches/transforms-3/8432b90fc6bcaada0c23c5278ce0f490/transformed/material-1.4.0/res/values-v28/values-v28.xml",
+                    "source": "/Users/dspark/.gradle/caches/transforms-3/98ea615e92761d2c83df334c56abcf62/transformed/material-1.4.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
