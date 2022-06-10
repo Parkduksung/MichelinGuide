@@ -7,6 +7,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8bf9c278fa923a7e2a7ac60ad138260c/transformed/jetified-kakaonavi-1.17.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8bf9c278fa923a7e2a7ac60ad138260c/transformed/jetified-kakaonavi-1.17.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8bf9c278fa923a7e2a7ac60ad138260c/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2d707b2032a5fda72e0ebc3bf1fe6ae/transformed/jetified-kakaonavi-1.17.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c2d707b2032a5fda72e0ebc3bf1fe6ae/transformed/jetified-kakaonavi-1.17.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2d707b2032a5fda72e0ebc3bf1fe6ae/transformed/jetified-kakaonavi-1.17.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

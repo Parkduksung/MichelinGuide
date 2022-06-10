@@ -2,10 +2,12 @@ com/example/navermap/BR.java
  com.example.navermap.BR
 com/example/michelinlib/BR.java
  com.example.michelinlib.BR
-com/example/michelinguide/DataBindingTriggerClass.java
- com.example.michelinguide.DataBindingTriggerClass
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
+com/example/michelinguide/databinding/ActivityMainBinding.java
+ com.example.michelinguide.databinding.ActivityMainBinding
+com/example/michelinguide/DataBinderMapperImpl.java
+ com.example.michelinguide.DataBinderMapperImpl
+ com.example.michelinguide.DataBinderMapperImpl$InnerBrLookup
+ com.example.michelinguide.DataBinderMapperImpl$InnerLayoutIdLookup
 androidx/databinding/DataBinderMapperImpl.java
  androidx.databinding.DataBinderMapperImpl
 com/example/michelinguide/BuildConfig.java
@@ -23,11 +25,9 @@ com/rsupport/rv/agent/tmap/BR.java
  com.rsupport.rv.agent.tmap.BR
 com/example/michelinguide/BR.java
  com.example.michelinguide.BR
-com/example/michelinguide/databinding/ActivityMainBinding.java
- com.example.michelinguide.databinding.ActivityMainBinding
-com/example/michelinguide/DataBinderMapperImpl.java
- com.example.michelinguide.DataBinderMapperImpl
- com.example.michelinguide.DataBinderMapperImpl$InnerBrLookup
- com.example.michelinguide.DataBinderMapperImpl$InnerLayoutIdLookup
 com/example/michelinguide/databinding/ActivityMainBindingImpl.java
  com.example.michelinguide.databinding.ActivityMainBindingImpl
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/example/michelinguide/DataBindingTriggerClass.java
+ com.example.michelinguide.DataBindingTriggerClass

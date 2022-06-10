@@ -3,6 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/30dcdaa5d09cbac99f7d0025d472fe1c/transformed/jetified-map-sdk-3.13.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5373c79b50ce50433752f6bf2fc332cf/transformed/jetified-map-sdk-3.13.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8f2f5372c795189ea85eeee1a0f4f7fc/transformed/jetified-map-sdk-3.13.0/jars/classes.jar!/" />
@@ -11,6 +12,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/30dcdaa5d09cbac99f7d0025d472fe1c/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/30dcdaa5d09cbac99f7d0025d472fe1c/transformed/jetified-map-sdk-3.13.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/30dcdaa5d09cbac99f7d0025d472fe1c/transformed/jetified-map-sdk-3.13.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5373c79b50ce50433752f6bf2fc332cf/transformed/jetified-map-sdk-3.13.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5373c79b50ce50433752f6bf2fc332cf/transformed/jetified-map-sdk-3.13.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5373c79b50ce50433752f6bf2fc332cf/transformed/jetified-map-sdk-3.13.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.naver.maps/map-sdk/3.13.0/1db72d1fbee17ab5e1c10bd525f6f73922f82681/map-sdk-3.13.0-javadoc.jar!/" />
